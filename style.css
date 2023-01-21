@@ -41,7 +41,6 @@ a {
 
 
 .header {
-    /* background-color: gray; */
     width: 100%;
     height: 48px;
     display: flex;
@@ -91,4 +90,329 @@ a {
     cursor:pointer;
 }
 
+
+
+.headerLastChild:hover {
+    border: 1px solid #F07566;
+    color:#F07566;
+}
+
+
+.SectionLastBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 128px 0;
+}
+
+.RboxConent {
+    width: 462px;
+    height: 480px;
+    top: 192px;
+    background: #FBD34B;
+    border-radius: 100px 8px 8px 8px;
+    overflow: hidden;
+}
+
+
+.RboxConent img {
+    width: 100%;
+    height: auto;
+}
+
+/* =======================BOX2============================== */
+
+
+.Box2 {
+    display: flex;
+}
+
+.Box2Content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Box2R {
+    height: 184px;
+    width: 38px;
+    margin-top: 158px;
+    background: #F07566;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.Speakerbox {
+    position: absolute;
+    background: #4DB282;
+    box-shadow: 0px 16px 24px rgba(77, 60, 0, 0.16109);
+    width: 100px;
+    height: 100px;
+    margin: 96px 0px 0 -50px;
+    border-radius: 50% 50% 0px 50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.statisticBox {
+    position: absolute;
+    width: 216px;
+    height: 126px;
+    margin: 400px 0 0 -50px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(86, 66, 0, 0.0799083);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =======================END BOX2============================== */
+
+/* =======================BOX1============================== */
+.Box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.Box1 h3::before {
+    content:'';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #F07566;
+}
+
+.Box1 h3 {
+    font-family: 'Hind', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F07566;
+}
+
+.Box1 h2 {
+    font-family: 'Hind', sans-serif;
+    color: #333333;
+    letter-spacing: -1px;
+    font-size: 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Box1 h2 .underline::after {
+    content: url(./images/TextUnderline.svg);
+    display: inline-block;
+    margin: -35px 0 0 0;
+    
+}
+
+.Box1 h2 .underline {
+    display: flex;
+    flex-direction: column;
+    color:  #4DB282;
+}
+
+.Box1span {
+    width: 75%;
+    font-size: 20px;
+    color: #333333;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0 0 34px 0;
+}
+
+.Box1li {
+    width: 75%;
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Box1li li::before {
+    content: url(./images/checked.svg);
+    padding: 0 10px 0 0 ;
+    width: 24px;
+    height: 22px;
+}
+
+
+.Box1 h4 {
+    font-size: 24px;
+    font-family: 'Hind', sans-serif;
+}
+
+.Box1 button {
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    padding: 12px 0;
+    width: 154px;
+    color: #FFFFFF;
+    background: #F07566;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.Box1 button:hover {
+    background: #b8736a;
+}
+
+.box1 h4 {
+    font-size: 24px;
+    color: #333333;
+}
+
+/* =======================BOX1============================== */
+
+
 /*END First Section */
+
+
+/*Second Section */
+.secondSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 0 135px;
+    margin-top: 300px ;
+}
+
+
+.Box3 {
+    width: 100%;
+    position: relative;
+}
+
+.Box3Con {
+    position: relative;
+}
+
+.Box3Condiv3 {
+    position: absolute;
+    width: 520px;
+    height: 448px;
+    background: #D8D8D8;
+    border-radius: 8px 100px 8px 8px;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.Box3Condiv1 {
+    position: absolute;
+    width: 482px;
+    height: 326px;
+    margin:138px 0 0 -16px ;
+    background: #FBD34B;
+    border-radius: 12px;
+    z-index: 1;
+}
+
+.Box3Condiv2 {
+    position: absolute;
+    width: 132px;
+    height: 160px;
+    margin:318px 0 0 -30px ;
+    background: #F07566;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.Box3Condiv4 {
+        position: absolute;
+        background: #4DB282;
+        box-shadow: 0px 16px 24px rgba(77, 60, 0, 0.16109);
+        width: 100px;
+        height: 100px;
+        margin: 64px 0px 0 -50px;
+        border-radius: 50% 50% 0px 50% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 4;
+
+}
+
+
+.Box3Condiv5 {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    margin: 376px 0 0 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(86, 66, 0, 0.0799083);
+    border-radius: 8px;
+    z-index: 5;
+}
+
+
+/*Second Section */
+
+
+
+/* Section 3 */
+.Section3 {
+        width: 100%;
+        padding: 179px 135px;
+        background: url('./images/SectionBg3.png') top left no-repeat;
+        background-size:contain;
+        margin-top: 112px;
+
+}
+
+.BoxWrapper3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Wrapper3Card {
+    box-sizing: border-box;
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    border: 1px solid #E6EDF5;
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap:89px;
+}
+
+.Bws3 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.Bws3h3 {
+    font-size: 24px;
+    font-family: 'Hind', sans-serif;
+    color: #333333;
+}
+
+.Bws3span {
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.496405);
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Section 3 */
