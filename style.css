@@ -909,8 +909,76 @@ a {
     padding: 0 135px;
     margin: 80px 0 0 0;
     display: flex;
-    justify-content: center;
-    gap: 150px;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+
 }
 
 /* Section 9 */
+
+
+/* Box9 SliderBox */
+
+.Box9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.SliderWrapper1 {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.SlideCard {
+    width: 370px;
+    height: 448px;
+    background: #FFFFFF;
+    border: 1px solid #E6EDF5;
+    border-radius: 8px;
+    box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+}
+
+.SlideImg {
+    width: 338px;
+    height: 320px;
+    border-radius: 8px 8px 50px 8px;
+}
+
+.Sblue {
+    background: #E7F3ED;
+}
+.Spurple {
+    background: #F9E3E1;
+}
+.Sorange {
+    background: #FBF6E3;
+}
+
+.SlideCard h2 {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.SlideCard span {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.496405);
+}
