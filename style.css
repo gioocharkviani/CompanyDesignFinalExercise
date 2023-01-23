@@ -935,6 +935,7 @@ a {
     width: 100%;
     overflow-x: auto;
     scroll-behavior: smooth;
+    background: none;
 }
 
 .SliderWrapper1::-webkit-scrollbar {
