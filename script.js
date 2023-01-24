@@ -1,17 +1,16 @@
-const SliderSelector = [...document.querySelectorAll('.SliderWrapper1')]
-let SliderBtn = document.querySelectorAll('.SliderBtn')
-let SliderBtnde = document.querySelectorAll('.SliderBtnactive')
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  slidesPerGroup: 3,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 
-SliderSelector.forEach((Slide , i) => {
-let SliderBoxDimision = Slide.getBoundingClientRect();
-let SliderBoxWidth = SliderBoxDimision.width;
 
-SliderBtn[i].addEventListener('click' , () => {
-    Slide.scrollLeft += SliderBoxWidth;
-})
-
-SliderBtnde[i].addEventListener('click' , () => {
-    Slide.scrollLeft -= SliderBoxWidth;
-})
-
-})
+const RevSlidCard = [...document.querySelector('.RevSlidCard')]
+const PrevRev = [...document.querySelector('#NextRev')]
+const NextRev = [...document.querySelector('#NextRev')]

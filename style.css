@@ -33,8 +33,8 @@ a {
 /* First Section */
 
 .FirstSection {
-    width: 100%;
     padding: 0 135px;
+    width: 100%;
     background: url('./images/FirstSecBg.png') top right no-repeat;
     background-size:contain;
 }
@@ -47,6 +47,14 @@ a {
     align-items: center;
     justify-content: center;
     margin-top:16px;
+}
+
+.headerDiv {
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo h1 {
@@ -377,8 +385,8 @@ a {
 
 /*Second Section */
 .secondSection {
-    width: 100%;
     padding: 0 135px;
+    width: 100%;
     margin: 200px 0 0 0;
     display: flex;
     justify-content: center;
@@ -509,8 +517,8 @@ a {
 
 /* Section 4 */
 .Section4 {
-    width: 100%;
     padding: 0 135px;
+    width: 100%;
     margin: 250px 0 0 0;
     display: flex;
     justify-content: center;
@@ -591,9 +599,9 @@ a {
 
 /* Section 5 */
 .Section5 {
-    width: 100%;
     padding: 0 135px;
-    margin: 250px 0 0 0;
+    width: 100%;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     gap: 150px;
@@ -732,7 +740,7 @@ a {
 /* Section6 */
 .Section6 {
     width: 100%;
-    padding: 144px 135px 0 135px;
+    padding: 144px 135px;
     display: flex;
     justify-content: center;
 }
@@ -752,11 +760,11 @@ a {
 
 .Section7 {
     width: 100%;
-    padding: 0 135px;
     margin: 200px 0 0 0;
     display: flex;
     justify-content: center;
     gap: 150px;
+    padding: 0 135px;
 }
 
 /* Section 7 */
@@ -836,6 +844,7 @@ a {
     margin: 158px 0 158px 0;
     display: flex;
     justify-content: center;
+    padding: 0 135px;
 }
 /* Section 8 */
 
@@ -906,12 +915,12 @@ a {
 /* Section 9 */
 .Section9 {
     width: 100%;
-    padding: 0 135px;
     margin: 80px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 62px;
+    padding: 0 135px;
 
 }
 
@@ -924,25 +933,24 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1170px;
+    width: 100%;
+    max-width: 1170px;
     overflow: hidden;
 }
 
-.SliderWrapper1 {
-    display: flex;
-    justify-content:flex-start;
-    gap: 30px;
+
+
+.swiper {
+    overflow: hidden;
     width: 100%;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    background: none;
+    max-width: 1170px;
+    padding: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.SliderWrapper1::-webkit-scrollbar {
-    display: none;
-}
 
-.SlideCard {
+.swiper-slide {
     width: 370px;
     height: 448px;
     background: #FFFFFF;
@@ -951,14 +959,59 @@ a {
     box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+
+}
+
+.SwiperCard {
+    flex-direction: column;
+    gap: 15px;
+    display: flex;
+    width: 338px;
     padding: 16px;
 }
 
-.SlideImg {
-    width: 338px;
+.SWcardimg {
+    width: 100%;
     height: 320px;
+    background: #E7F3ED;
     border-radius: 8px 8px 50px 8px;
+}
+
+.SwiperCard h2 {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.SwiperCard span {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 0.496405);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #F07566;
+    width: 16px;
+    height: 16px;
+}
+
+
+.swiper-pagination-bullet {
+    background-color: #F07566;
+
+}
+
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Sblue {
@@ -971,7 +1024,332 @@ a {
     background: #FBF6E3;
 }
 
-.SlideCard h2 {
+/*END Box9 SliderBox */
+
+
+/* SEction 10 */
+.Section10 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 200px;
+    padding: 0 135px;
+}
+
+
+/*END SEction 10 */
+
+
+/* ReViewBoX */
+.Box1RevieBox {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    position: relative;
+}
+
+.Box1RevieBox::after {
+    content: url(./images/RevieBox1.svg);
+    width: 48px;
+    height: 36px;
+    position: absolute;
+    top: -20px;
+    right: 36px;
+}
+
+
+
+.RevSlidCard h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    font-family: 'Hind', sans-serif;
+}
+.RevSlidCard span {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.496405);
+}
+
+.RevSlidCard p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.496405);
+    
+}
+
+.RevSlideBtn {
+    display: flex;
+    gap: 10px;
+}
+
+.RevSlideBtn button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#PrevRev::before {
+    content: url(./images/ArrowL.svg);
+    width: 12px;
+    height: 20px;
+}
+
+#NextRev::before {
+    content: url(./images/ArrowR.svg);
+    width: 12px;
+    height: 20px;
+}
+/* ReViewBoX */
+
+
+/* Section11 */
+.Section11 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 240px;
+    margin-top: 240px;
+    padding: 0 135px;
+}
+
+/*End Section11 */
+
+
+/* Box10 */
+.Box10 {
+    width: 100%;
+    max-width: 1170px;
+    background: #F07566;
+    border-radius: 8px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 240px;
+    position: relative;
+}
+
+.Box10::before {
+    content: url('./images/Lines.svg');
+    bottom: -70px;
+    position: absolute;
+}
+/* Box10 */
+
+
+/* Box11 */
+.Box11 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.Box11 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+}
+.Box11 button {
+    background: #FBD34B;
+    border-radius: 6px;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    width: 170px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+}
+
+.Box11 button:hover {
+    background: #fcdb70;
+}
+/* Box11 */
+
+/* Box12 */
+.Box12 span  {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Box12 */
+
+
+/* Section12 */
+.Section12 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:140px;
+    padding: 0 135px;
+}
+
+/*End Section12 */
+
+
+
+
+/* Box13 */
+.Box13 {
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box13 h2 {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #333333;
+    flex-grow: 1;
+}
+
+.SubSForm input {
+    padding: 12px 16px;
+    color: rgba(51, 51, 51, 0.496405);
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.SubSForm button {
+    background: #F07566;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+    border: none;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.SubSForm button:hover {
+    background: #cf7d73;
+}
+/* Box13 */
+
+
+/* Section13 */
+.Section13 {
+    display: flex;
+    justify-content: center;
+    margin: 200px 0 0 0 ;
+    padding: 0 135px;
+}
+
+/*End Section13 */
+
+/* Box14 */
+.Box14 {
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border: 1px solid #E6EDF5;
+    border-radius: 8px;
+    padding: 16PX;
+}
+
+.Box14img {
+    /* width: 100%; */
+    width: 554px;
+    height: 336px;
+    background: #D8D8D8;
+    border-radius: 8px 8px 50px 8px;
+}
+
+.Box14info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Box14info h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #333333;
+    font-family: 'Hind', sans-serif;
+}
+.Box14info span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Box14 */
+
+/* Box 15 */
+.Box15 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Box15card {
+    width: 370px;
+    height: 384px;
+    background: #FFFFFF;
+    border: 1px solid #E6EDF5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 16px;
+}
+
+.Box15card h2 {
+    text-align: left;
     font-family: 'Hind', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -980,40 +1358,10 @@ a {
     color: #333333;
 }
 
-.SlideCard span {
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    color: rgba(51, 51, 51, 0.496405);
+.Box15cardimg {
+    width: 338px;
+    height: 240px;
+    background: #D8D8D8;
+    border-radius: 8px 8px 50px 8px;
 }
-
-.SliderBtn {
-    width: 8px;
-    height: 8px;
-    background-color:#FFE4E1;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.SliderBtnactive {
-    width: 8px;
-    height: 8px;
-    background-color:#FFE4E1;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.SliderNavigate {
-    padding: 20px 0;
-    display: flex;
-    gap: 16px;
-    align-items: center;
-}
-
-.SliderBtnactive {
-    width: 16px;
-    height: 16px;
-    background: #F07566;
-}
+/* Box 15 */

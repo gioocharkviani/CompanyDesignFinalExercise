@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company-Final Exercise</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="BoxWrapper">
-        <!-- first Section -->
+    <div class="BoxWrapper">
+
         <section class="FirstSection">
             
             <header class="header">
+                <div class="headerDiv">
                 <div class="logo"><h1>CMP</h1></div>
                 <nav class="navigation">
                     <ul>
@@ -24,6 +26,7 @@
                     </ul>
                 </nav>
                 <button class="headerLastChild">CONTACT</button>
+                </div>  
             </header>
 
             <div class="SectionLastBox">
@@ -50,7 +53,6 @@
                     </div>
                     <div class="RboxConent"><img src="https://dlcdnrog.asus.com/rog/media/1610705538274.webp" alt="" /></div>
                     <div class="Box2R"></div>
-                    </div>
                 </div>
             </div>
 
@@ -335,49 +337,211 @@
 
             <div class="Box9">
 
-                <div class="SliderWrapper1">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
 
-                <div class="SlideCard">
-                <div class="SlideImg Sblue"><img src="" alt=""></div>
-                <h2>Ingo Schimpff</h2>
-                <span>Manager</span>
+                        <!------------ Slide Cards----------- -->
+                        <div class="swiper-slide">
+                            <div class="SwiperCard">
+                                <div class="SWcardimg"><img src="" alt=""></div>
+                                <h2>Ingo Schimpff</h2>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="SwiperCard">
+                                <div class="SWcardimg Spurple"><img src="" alt=""></div>
+                                <h2>Ingo Schimpff</h2>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="SwiperCard">
+                                <div class="SWcardimg Sorange"><img src="" alt=""></div>
+                                <h2>Ingo Schimpff</h2>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="SwiperCard">
+                                <div class="SWcardimg"><img src="" alt=""></div>
+                                <h2>Ingo Schimpff</h2>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="SwiperCard">
+                                <div class="SWcardimg Spurple"><img src="" alt=""></div>
+                                <h2>Ingo Schimpff</h2>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="SwiperCard">
+                                <div class="SWcardimg Sorange"><img src="" alt=""></div>
+                                <h2>Ingo Schimpff</h2>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+
+   
+                        <!------------ Slide Cards----------- -->
+                    </div>
+                    <div class="swiper-pagination"></div> 
+                </div>
+                <!--End Swiper --> 
+            </div>
+
+
+        </section>
+        <!--end Section 9 -->
+
+        <!-------Section 10----->
+        <section class="Section10">
+
+            <div class="Box3">
+                <div class="Box3Condiv1"></div>
+                <div class="Box3Condiv2"></div>
+                <div class="Box3Condiv3"><img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__480.jpg" alt=""></div>
+                <div class="Box3Condiv4"><img src="./images/Sec10I.svg" alt=""></div>
+            </div>
+
+            <div class="Box1" >
+                <h3>Testimonials</h3>
+                <h2>Reviews</h2>
+                
+                <div class="Box1RevieBox">
+                    <div class="RevSlideWraperr">
+
+                    <div class="RevSlidCard">
+                        <p>
+                            "The sky was cloudless and of a deep dark blue the spectacle 
+                            before us was indeed sublime sky was cloudless and of a deep dark."
+                        </p>
+                        <h2>Jaroslav Brabec</h2>
+                        <span>Microsoft</span>
+                    </div>
+
+                </div>
                 </div>
 
-                <div class="SlideCard">
-                <div class="SlideImg Spurple"><img src="" alt=""></div>
-                <h2>Ingo Schimpff</h2>
-                <span>Manager</span>
-                </div>
-
-                <div class="SlideCard">
-                <div class="SlideImg  Sorange"><img src="" alt=""></div>
-                <h2>Ingo Schimpff</h2>
-                <span>Manager</span>
-                </div>
-
-                <div class="SlideCard">
-                <div class="SlideImg Sblue"><img src="" alt=""></div>
-                <h2>Ingo Schimpff</h2>
-                <span>Manager</span>
-                </div>
-
-                <div class="SlideCard">
-                <div class="SlideImg Spurple"><img src="" alt=""></div>
-                <h2>Ingo Schimpff</h2>
-                <span>Manager</span>
-                </div>
-
-                <div class="SlideCard">
-                <div class="SlideImg  Sorange"><img src="" alt=""></div>
-                <h2>Ingo Schimpff</h2>
-                <span>Manager</span>
+                <div class="RevSlideBtn">
+                    <button id="PrevRev"></button>
+                    <button id="NextRev"></button>
                 </div>
 
             </div>
+
+
         </section>
-        <!--end Section 9 -->
-        
-</div>        
+        <!-------Section 10----->
+
+
+        <!-- ----------Section 11------------ -->
+        <Section class="Section11">
+
+
+            <div class="Box10">
+                
+                <div class="Box11">
+                    <h2>Kickstart Your Next Project</h2>
+                    <button>Contact Us</button>
+                </div>
+
+
+                <div class="Box12">
+                    <span>
+                        I shall see the face of Mars, anyhow, and that will be a rare experience.
+                        It seems to me that a view of the heavenly bodies through a fine telescope, as well
+                        as a tour round the world, should form a part of a liberal education.
+                    </span>
+                </div>
+
+            </div>
+
+
+        </Section>
+        <!-- ----------Section 11------------ -->
+
+
+        <!-- -------------Section 12 Subscribe -->
+        <section class="Section12">
+
+            <div class="Box13">
+                <h2>Company Newsletter</h2>
+                <div class="SubSForm">
+                    <form>
+                        <input type="text" placeholder="Your Email">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <!-- -------------Section 12 Subscribe -->
+
+
+
+        <!-- --------------Section 13----------------- -->
+        <section class="Section13">
+
+            
+            <div class="Box5">
+                <h3>Latest articles</h3>
+                <h2>Check Our Insights</h2>
+                <span>
+                    See the face of Mars, anyhow, and that will be a rare experience seems to me that a view of
+                    the heavenly bodies through a fine telescope, as well as a tour round the world.
+                </span>
+
+
+                <div class="Box14">
+                    <div class="Box14img"><img src="" alt=""></div>
+                    <div class="Box14info">
+                        <h2>What looked like a small patch of purple grass</h2>
+                        <span>
+                            Truly it was a great journey, and in it I met with many, whom to know was to love. 
+                        </span>
+                    </div>
+                </div>
+
+                <div class="Box15">
+
+                    <div class="Box15card">
+                        <div class="Box15cardimg"><img src="" alt=""></div>
+                        <h2>Above five feet square, was moving across</h2>
+                    </div>
+
+                    <div class="Box15card">
+                        <div class="Box15cardimg"><img src="" alt=""></div>
+                        <h2>Enough he perceived that it was not grass</h2>
+                    </div>
+
+                    <div class="Box15card">
+                        <div class="Box15cardimg"><img src="" alt=""></div>
+                        <h2>There were no blades, but only purple roots</h2>
+                    </div>
+
+
+                </div>
+
+                <button class="headerLastChild PortBtn"> BROWSE ALL</button>
+
+            </div>
+
+
+        </section>
+        <!-- --------------Section 13----------------- -->
+
+
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>        
 <script src='./script.js' ></script>
 </body>
 </html>
