@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 30,
   slidesPerGroup: 3,
@@ -10,7 +10,3 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-
-const RevSlidCard = [...document.querySelector('.RevSlidCard')]
-const PrevRev = [...document.querySelector('#NextRev')]
-const NextRev = [...document.querySelector('#NextRev')]

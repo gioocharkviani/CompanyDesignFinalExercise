@@ -1032,7 +1032,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 60px;
     margin-top: 200px;
     padding: 0 135px;
 }
@@ -1044,12 +1044,30 @@ a {
 /* ReViewBoX */
 .Box1RevieBox {
     width: 100%;
+    max-width: 470px;
     background: #FFFFFF;
     box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
     border-radius: 8px;
     padding: 32px;
-    display: flex;
     position: relative;
+}
+
+.RevSlideWraperr {
+    width: 406px;
+    max-height: 172px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 170px;
+}
+
+.RevSlideWraperr::-webkit-scrollbar {
+    display: none;
+}
+
+.RevSlideWraperr {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 }
 
 .Box1RevieBox::after {
@@ -1061,7 +1079,10 @@ a {
     right: 36px;
 }
 
-
+.RevSlidCard {
+    width: 100%;
+    height: 176px;
+}
 
 .RevSlidCard h2 {
     font-style: normal;
