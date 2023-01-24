@@ -1365,3 +1365,16 @@ a {
     border-radius: 8px 8px 50px 8px;
 }
 /* Box 15 */
+
+
+
+/* Footer-Section */
+.Footer-Section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 128px 0 0 0 ;
+    padding: 0 135px;
+    background: #3F3836;
+}
+/* Footer-Section */
