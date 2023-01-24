@@ -24,6 +24,7 @@ a {
 
 .BoxWrapper {
     width: 100%;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -933,8 +934,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 1170px;
+    /* width: 100%;
+    max-width: 1170px; */
     overflow: hidden;
 }
 
@@ -945,7 +946,6 @@ a {
     width: 100%;
     max-width: 1170px;
     padding: 0 0 50px 0;
-    display: flex;
     flex-direction: column;
 }
 
@@ -1374,7 +1374,14 @@ a {
     display: flex;
     justify-content: center;
     margin: 128px 0 0 0 ;
-    padding: 0 135px;
+    padding: 76px 135px 52px 135px;
     background: #3F3836;
 }
 /* Footer-Section */
+
+.Footer-Section footer {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
