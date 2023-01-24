@@ -185,6 +185,7 @@ a {
 
 /* =======================BOX1============================== */
 .Box1 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 37px;
@@ -390,22 +391,27 @@ a {
 
 /*Second Section */
 .secondSection {
-    padding: 0 135px;
     width: 100%;
     max-width: 1170px;
     margin: 200px 0 0 0;
+    position: relative;
     display: flex;
-    justify-content: center;
     gap: 100px;
+    background-color: gray;
 }
 
 
 .Box3 {
-    display: flex;
+    width: 100%;
     position: relative;
+    display: flex;
+    margin: 0 0 0 50px ;
 }
 
+
+
 .Box3Condiv3 {
+    position: absolute;
     width: 520px;
     height: 448px;
     background: #D8D8D8;
@@ -529,7 +535,7 @@ a {
     margin: 250px 0 0 0;
     display: flex;
     justify-content: space-between;
-    gap: 150px;
+    gap: 100px;
 }
 
 /* Section 4 */
@@ -538,7 +544,6 @@ a {
 /* Box4 */
 
 .Box4 {
-    width: 100%;
     display: flex;
     position: relative;
 }
@@ -752,6 +757,7 @@ a {
     padding: 144px 0;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 /* Section6 */
@@ -773,7 +779,8 @@ a {
     margin: 200px 0 0 0;
     display: flex;
     justify-content: center;
-    gap: 150px;
+    position: relative;
+    gap: 100px;
     padding: 0 ;
 }
 
@@ -782,6 +789,7 @@ a {
 /* Box6*/
 
 .Box6 {
+    width: 100%;
     display: flex;
     position: relative;
 }
@@ -850,7 +858,6 @@ a {
 
 /* Section 8 */
 .Section8 {
-    max-width: 1170px;
     width: 100%;
     background-color: #F07566;
     margin: 158px 0 158px 0;
@@ -1044,6 +1051,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
     gap: 60px;
     margin-top: 200px;
     padding: 0 ;
@@ -1056,7 +1064,6 @@ a {
 /* ReViewBoX */
 .Box1RevieBox {
     width: 100%;
-    max-width: 470px;
     background: #FFFFFF;
     box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
     border-radius: 8px;
@@ -1064,23 +1071,7 @@ a {
     position: relative;
 }
 
-.RevSlideWraperr {
-    width: 406px;
-    max-height: 172px;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-    gap: 170px;
-}
 
-.RevSlideWraperr::-webkit-scrollbar {
-    display: none;
-}
-
-.RevSlideWraperr {
-    -ms-overflow-style: none; 
-    scrollbar-width: none; 
-}
 
 .Box1RevieBox::after {
     content: url(./images/RevieBox1.svg);
@@ -1089,11 +1080,6 @@ a {
     position: absolute;
     top: -20px;
     right: 36px;
-}
-
-.RevSlidCard {
-    width: 100%;
-    height: 176px;
 }
 
 .RevSlidCard h2 {
