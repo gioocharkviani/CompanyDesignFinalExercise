@@ -1561,3 +1561,24 @@ a {
     text-align: right;
     color: #FFFFFF;
 }
+
+/* --------------Responsieve ------------------- */
+
+
+@media screen and (max-width:375px){
+    .SectionLastBox {
+        flex-direction: column-reverse;
+    }
+    
+    .FirstSection {
+        padding: 10px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .headerLastChild {
+        display: none;
+    }
+}
