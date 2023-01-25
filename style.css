@@ -295,12 +295,9 @@ a {
     background: #FFFFFF;
     box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
     border-radius: 8px;
-}
-
-
-.box1insidediv {
     padding: 22px;
 }
+
 
 .box1insidediv header {
     font-family: 'Hind', sans-serif;
@@ -428,7 +425,7 @@ a {
 }
 
 .Box3Condiv1 {
-    position: absolute;
+    position: relative;
     width: 482px;
     height: 326px;
     margin:138px 0 0 -16px ;
@@ -502,7 +499,7 @@ a {
 .Wrapper3Card {
     box-sizing: border-box;
     width: 270px;
-    height: 368px;
+    min-height: 368px;
     background: #FFFFFF;
     border: 1px solid #E6EDF5;
     border-radius: 8px;
@@ -560,7 +557,7 @@ a {
     width: 462px;
     height: 480px;
     background: #D8D8D8;
-    border-radius: 8px 100px 8px 8px;
+    border-radius: 100px 8px 8px 8px;
     overflow: hidden;
     z-index: 3;
 }
@@ -815,7 +812,7 @@ a {
     width: 462px;
     height: 480px;
     background: #D8D8D8;
-    border-radius: 8px 100px 8px 8px;
+    border-radius: 100px 8px 8px 8px;
     overflow: hidden;
     z-index: 3;
 }
@@ -875,7 +872,7 @@ a {
     border-radius: 8px;
     z-index: 5;
 }
-/* Box4 */
+/* Box6 */
 
 
 /* Section 8 */
@@ -949,7 +946,7 @@ a {
     color: #FFFFFF;
 }
 
-/* Box 7 */
+/* Box 8 */
 
 
 /* Section 9 */
@@ -1568,10 +1565,9 @@ a {
 
 @media screen and (max-width:360px){
     .SectionLastBox {
-        padding: 23px;
         align-items: center;
         flex-direction: column-reverse;
-        margin: 0;
+        margin: 20px 0 0 0;
     }
     
     .FirstSection {
@@ -1594,6 +1590,7 @@ a {
 
     /* Box 2 */
     .Box2 {
+        padding: 23px;
         display: flex;
         margin-left: 30px;
     }
@@ -1602,8 +1599,6 @@ a {
         height: 100px;
         width: 22px;
         margin-top: 100px;
-        background: #F07566;
-        border-radius: 0px 8px 8px 0px;
     }
     
     .Speakerbox {
@@ -1638,19 +1633,15 @@ a {
     }
     
     
-    .RboxConent img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
     /* Box2*/
 
 
 
     /* Box1 */
 .Box1 {
+    position: relative;
     gap: 30px;
+    padding: 23px;
 }
 
 .Box1 h2 {
@@ -1666,95 +1657,366 @@ a {
     
 }
 
-
 .Box1span {
     padding: 0;
 }
+
+.box1insidediv {
+    width: 100%;
+    min-height: 144px;
+}
+
+.SerInfo {
+    flex-direction: column;
+    gap: 10px;
+}
+
 
 /* Box1 */
 
 
 /*Second Section */
 .secondSection {
-    width: 100%;
-    margin: 200px 0 0 0;
-    position: relative;
-    display: flex;
+    margin: 100px 0 0 0;
     flex-direction: column;
-    gap: 100px;
+    gap:70px;
 }
-
-/*Second Section */
+/*End Second Section */
 
 
 /* Box 3 */
 
 .Box3 {
-    position: relative;
-    width: 100px;
+    width: 100%;
 }
-
 
 
 .Box3Condiv3 {
     width: 250px;
     height: 260px;
-    overflow: hidden;
-    z-index: 3;
 }
 
-.Box3Condiv3 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .Box3Condiv1 {
-    position: absolute;
-    width: 482px;
-    height: 326px;
-    margin:138px 0 0 -16px ;
-    background: #FBD34B;
-    border-radius: 12px;
-    z-index: 1;
+    width: 250px;
+    height: 192px;
+    position: relative;
+    margin:80px 0 0 -13px ;
 }
 
 .Box3Condiv2 {
-    position: absolute;
-    width: 132px;
-    height: 160px;
-    margin:318px 0 0 -30px ;
-    background: #F07566;
-    border-radius: 8px;
-    z-index: 2;
-}
-
-.Box3Condiv4 img {
-    width: 50%;
-    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin:180px 0 0 -20px ;
 }
 
 .Box3Condiv4 {
         width: 50px;
         height: 50px;
-        margin: 96px 0px 0 -30px;
+        margin: 50px 0px 0 -25px;
+}
+
+.Box3Condiv4 img {
+    width: 50%;
 }
 
 
 .Box3Condiv5 {
-    position: absolute;
-    width: 128px;
-    height: 128px;
-    margin: 100px 0 0 0px;
+    width: 70px;
+    height: 70px;
+    margin: 220px 0 0 210px;
+}
+
+.Box3Condiv5 img {
+    width: 60%;
+    height: 60%;
+}
+/* BoX3 */
+
+/* Section 3 */
+.Section3 {
+    padding: 0 23px;
+}
+.BoxWrapper3 {
+flex-direction: column;
+}
+
+.Wrapper3Card {
+width: 100%;
+}
+/* Section 3 */
+
+
+/* Section 4 */
+.Section4 {
+    max-width: 100%;
+    margin: 155px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Section 4 */
+
+
+/* Box4 */
+
+.Box4 {
+    margin-left: 35px;
+    padding: 23px;
+    width: 100%;
+}
+
+.Box4Condiv3 {
+    width: 250px;
+    height: 260px;
+}
+
+.Box4Condiv3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Box4Condiv1 {
+    width: 100px;
+    height: 192px;
+    margin:-10px 0 0 165px ;
+}
+
+.Box4Condiv2 {
+    width: 130px;
+    height: 70px;
+    margin:-18px 0 0 146px ;
+}
+
+.Box4Condiv4 {
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0 -24px;
+}
+
+.Box4Condiv4 img {
+width: 50%;
+}
+
+.Box4Condiv5  {
+    width: 100px;
+    height: 60px;
+    margin: 230px 0 0 70px;
+}
+
+.Box4Condiv5  img {
+    width: 70%;
+    object-fit: contain;
+}
+
+
+/* Section 5 */
+.Section5 {
+    max-width: 100%;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+/* Section 5 */
+
+/* Box 5 */
+
+.Box5 {
+    width: 100%;
+    padding: 23px;
+}
+
+.PortFolioContent {
+    grid-template-columns: repeat(1 , 1fr);
+}
+
+.portfolioBox {
+    width: 100%;
+}
+
+
+.Pbc {
+    width: 100%;
+    height: auto;
+}
+
+.Pbc div {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.PortBtn {
+    display: block;
+}
+
+
+/* Section6 */
+.Section6 {
+    max-width: 100%;
+    padding: 23px;
+}
+
+/* Section6 */
+
+
+/* Partners */
+.Partners {
+   display: grid;
+   justify-content: center;
+   grid-template-columns: repeat(2 , 2fr);
+   gap: 25px;
+}
+/*End Partners */
+
+/* Section 7 */
+
+.Section7 {
+    max-width: 100%;
+    margin: 100px 0 0 0;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 ;
+}
+
+/* Section 7 */
+
+/* Box6*/
+
+.Box6 {
+    padding: 23px;
+    justify-content: center;
+}
+
+
+.Box6Condiv3 {
+    width: 250px;
+    height: 260px;
+}
+
+.Box6Condiv3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Box6Condiv1 {
+    width: 170px;
+    height: 150px;
+    margin:0;
+    right: 42px;
+    bottom: 10px;
+}
+
+.Box6Condiv2 {
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    margin:0 ;
+}
+
+.Box6Condiv4 {
+    width: 50px;
+    height: 50px;
+    left: 30px;
+    top: 100px;
+    margin: 0px;
+}
+
+.Box6Condiv4 img {
+    width: 50%;
+    height: 50%;
+}
+
+.Box6Condiv5 {
+    width: 80px;
+    height: 90px;
+    right: 20px;
+    top: 100px;
+    margin: 0px;
+}
+
+.Box6Condiv5 img {
+    width: 60%;
+}
+/* Box6*/
+
+/* Section 8 */
+.Section8 {
+    width: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 ;
+}
+/* Section 8 */
+
+
+/* Box 7 */
+.Box7 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 200px;
+}
+
+.VideBoxDiv {
+    width: 100%;
+    height: 100%;
+    margin:  0;
+    background: url(./images/Bitmap.svg) top center no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #FFFFFF;
-    box-shadow: 0px 24px 48px rgba(86, 66, 0, 0.0799083);
-    border-radius: 8px;
-    z-index: 5;
 }
 
+.VideBoxDiv button {
+    width: 128px;
+    height: 128px;
+    border: none;
+    background: url(./images/Triangle.svg) center center no-repeat  #FBD34B;;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.VideBoxDiv button:hover {
+    background: url(./images/TriangleHov.svg) center center no-repeat  #FBD34B;
+}
+
+.Box8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px;
+}
+
+.Box8 h2 {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.Box8 span {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+/* Box 8 */
 
 
 
