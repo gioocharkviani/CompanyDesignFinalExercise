@@ -10,3 +10,29 @@ let swiper = new Swiper(".mySwiper", {
   },
 });
 
+
+const Slides = document.querySelectorAll('.RevSlidCard');
+
+
+let counter = 0;
+
+
+Slides.forEach((sld , index) => {
+  sld.style.left = `${index * 100}%`;
+});
+
+const Slideimage = () => {
+  Slides.forEach((sld) => {
+    sld.style.transform = `translateX(-${counter * 100}%)`;
+  })
+}
+
+const prev = () =>{
+  counter--
+  Slideimage()
+}
+
+const next = () =>{
+  counter++
+  Slideimage()
+}

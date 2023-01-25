@@ -1110,6 +1110,21 @@ a {
     right: 36px;
 }
 
+
+.RevSlideWraperr {
+    width: 100%;
+    height: 176px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.RevSlidCard {
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
 .RevSlidCard h2 {
     font-style: normal;
     font-weight: 700;
