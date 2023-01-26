@@ -1335,8 +1335,11 @@ a {
 
 /* Section13 */
 .Section13 {
+    flex-direction: column;
+    align-items: center;
     display: flex;
     justify-content: center;
+    gap: 30px;
     margin: 200px 0 0 0 ;
     padding: 0 135px;
 }
@@ -1945,79 +1948,201 @@ width: 50%;
 
 /* Section 8 */
 .Section8 {
-    width: 100%;
-    margin:0;
-    display: flex;
-    align-items: center;
+    min-height: 900px;
+    margin:150px 0 0 0;
+    padding: 0;
     flex-direction: column;
-    justify-content: center;
-    padding: 0 ;
+    position: relative;
 }
 /* Section 8 */
 
 
 /* Box 7 */
 .Box7 {
-    width: 100%;
     max-width: 100%;
-    height: auto;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 200px;
+    gap: 50px;
 }
 
 .VideBoxDiv {
-    width: 100%;
-    height: 100%;
-    margin:  0;
-    background: url(./images/Bitmap.svg) top center no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.VideBoxDiv button {
-    width: 128px;
-    height: 128px;
-    border: none;
-    background: url(./images/Triangle.svg) center center no-repeat  #FBD34B;;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.VideBoxDiv button:hover {
-    background: url(./images/TriangleHov.svg) center center no-repeat  #FBD34B;
+    margin: -70px 0 0 0;
 }
 
 .Box8 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 26px;
-}
-
-.Box8 h2 {
-    font-family: 'Hind', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: -1px;
-    color: #FFFFFF;
-}
-
-.Box8 span {
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #FFFFFF;
+    padding: 23px;
 }
 
 /* Box 8 */
 
+
+
+/* SEction 10 */
+.Section10 {
+    flex-direction: column;
+}
+
+
+/*END SEction 10 */
+
+
+/* ReViewBoX */
+
+.RevSlidCard span {
+    line-height: 5px;
+}
+
+.RevSlidCard p {
+    line-height: 20px;
+}
+.RevSlidCard h2 {
+    margin: 10px 0 0 0;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+.RevSlideBtn {
+    justify-content: center;
+}
+/* ReViewBoX */
+
+/* Section11 */
+.Section11 {
+    margin-top: 100px;
+}
+
+/*End Section11 */
+
+
+/* Box10 */
+.Box10 {
+    padding: 100px 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* Box11 */
+.Box11 {
+    align-items: center;
+}
+
+/* Box13 */
+.Box13 {
+    padding: 23px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Box13 */
+
+
+/* Section13 */
+.Section13 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 0 23px;
+    margin: 60px 0 0 0;
+}
+
+/*End Section13 */
+
+/* Box14 */
+.Box14 {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Box14img {
+    overflow: hidden;
+    width:100%;
+}
+
+.Box14info {
+    gap: 20px;
+}
+
+.Box14info h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+}
+.Box14info span {
+    font-size: 20px;
+    line-height:30px;
+}
+/* Box14 */
+
+/* Box 15 */
+.Box15 {
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.Box15card {
+    width: 100%;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Box15cardimg {
+    width: 100%;
+    height: 240px;
+
+}
+
+/* Box 15 */
+
+
+/* Footer-Section */
+.Footer-Section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 128px 0 0 0 ;
+    padding: 76px 23px 52px 23px;
+    background: #3F3836;
+}
+/* Footer-Section */
+
+.Footer-Section footer {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FootBox nav {
+    align-items: center;
+}
+
+.FooterBottom {
+    width: 100%;
+    padding: 58px 0 0 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.FotBotR {
+    display: flex;
+    gap: 40px;
+}
+
+.FotBotR span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #FFFFFF;
+}
 
 
 }

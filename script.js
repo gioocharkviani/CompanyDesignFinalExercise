@@ -1,7 +1,20 @@
 let swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  slidesPerGroup: 3,
+  breakpoints: {
+    1920: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+    },
+    1000: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+    },
+    360: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    }
+  },
   loop: true,
   loopFillGroupWithBlank: true,
   pagination: {
@@ -9,6 +22,7 @@ let swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
+
 
 
 const Slides = document.querySelectorAll('.RevSlidCard');
