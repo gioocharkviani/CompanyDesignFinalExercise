@@ -50,3 +50,16 @@ const next = () =>{
   counter++
   Slideimage()
 }
+
+
+const burgermenuBtn = document.querySelector('#Burgermenu')
+
+ function clicker() {
+  if (burgermenuBtn.className = 'Burgermenu') {
+    burgermenuBtn.className = 'Burg-active'
+  }else{
+   alert('asdsadsa')
+  }
+}
+
+
