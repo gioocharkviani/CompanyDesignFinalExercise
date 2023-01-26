@@ -61,6 +61,10 @@ a {
     justify-content: space-between;
 }
 
+.logo {
+    width: 100%;
+}
+
 .logo h1 {
     font-weight: 700;
     font-size: 40px;
@@ -1577,16 +1581,64 @@ a {
         flex-direction: column-reverse;
         margin: 20px 0 0 0;
     }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: space-between;
+    }
     
+    .logo {
+        width: 100%;
+    }
+
     .FirstSection {
         padding: 0px;
     }
 
     .navigation {
+        width: auto;
+    }
+    .navigation ul {
         display: none;
     }
 
+    .navigationAc ul {
+        gap: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        z-index: 9999;
+        display: none;
+    }
 
+    .navigationAc {
+        background: #e8e8e8;
+        -webkit-box-shadow: inset 0px 0px 23px 0px rgba(39,39,39,0.56); 
+        box-shadow: inset 0px 0px 23px 0px rgba(39,39,39,0.56);
+        display: flex;
+        justify-content: space-between;
+        padding: 23px;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+        margin: 0;
+    }
+
+
+    .navigationAc ul li a {
+        color:  #333333;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .navigationAc ul li a:hover {
+        text-decoration: underline;
+    }
+    
     .Burgermenu {
         cursor: pointer;
         width: 50px;
@@ -1656,21 +1708,6 @@ a {
         position: absolute;
         
     }
-
-
-    #active {
-        background-color: gray;
-        height: 100vh;
-        width: 100%;
-        position: absolute;
-        display: block;
-    }
-
-
-    .headerLastChild {
-        display: none;
-    }
-
 
     .header {
         padding: 0 23px;

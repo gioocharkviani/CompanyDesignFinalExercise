@@ -55,12 +55,26 @@ const next = () =>{
 
 
 const burgermenuBtn = document.querySelector('#Burgermenu')
+const navigation = document.querySelector('.navigation')
+const navigationAc = document.querySelector('.navigation ul')
+const SectionLastBox = document.querySelector('.SectionLastBox')
+const logo = document.querySelector('#DeactiveBloks')
+const header = document.querySelector('.header')
+const headerLastChild = document.querySelector('.headerLastChild')
 
  function clicker() {
   if (burgermenuBtn.className === 'Burgermenu') {
     burgermenuBtn.className = 'Burg-active'
+    navigation.className = 'navigationAc'
+    navigationAc.style = `display:flex; `;
+    logo.style.display = 'none';
+    header.style = `width:auto; height:auto; margin:0;`;
   }else{
     burgermenuBtn.className = 'Burgermenu'
+    navigationAc.style.display = 'none';
+    logo.style.display = 'block';
+    navigation.className = 'navigation'
+    header.style = `width:100%; height:48px; margin-top: 16px;`;
   }
 
 }
