@@ -1,3 +1,5 @@
+'use strict'
+
 let swiper = new Swiper(".mySwiper", {
   breakpoints: {
     1920: {
@@ -55,11 +57,12 @@ const next = () =>{
 const burgermenuBtn = document.querySelector('#Burgermenu')
 
  function clicker() {
-  if (burgermenuBtn.className = 'Burgermenu') {
+  if (burgermenuBtn.className === 'Burgermenu') {
     burgermenuBtn.className = 'Burg-active'
   }else{
-   alert('asdsadsa')
+    burgermenuBtn.className = 'Burgermenu'
   }
+
 }
 
 
