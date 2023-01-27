@@ -194,6 +194,7 @@ a {
     display: flex;
     position: relative;
     flex-direction: column;
+    align-items: center;
     gap: 37px;
 }
 
@@ -1575,7 +1576,7 @@ a {
 /* --------------Responsieve ------------------- */
 
 
-@media screen and (max-width:360px){
+@media screen and (max-width:600px){
     .SectionLastBox {
         align-items: center;
         flex-direction: column-reverse;
@@ -1794,6 +1795,7 @@ a {
 
 /*Second Section */
 .secondSection {
+    align-items: center;
     margin: 100px 0 0 0;
     flex-direction: column;
     gap:70px;
@@ -1804,7 +1806,7 @@ a {
 /* Box 3 */
 
 .Box3 {
-    width: 100%;
+    width: auto;
 }
 
 
@@ -1881,7 +1883,7 @@ width: 100%;
 .Box4 {
     margin-left: 35px;
     padding: 23px;
-    width: 100%;
+    width: auto;
 }
 
 .Box4Condiv3 {
@@ -1994,6 +1996,7 @@ width: 50%;
     max-width: 100%;
     margin: 100px 0 0 0;
     flex-direction: column;
+    align-items: center;
     gap: 50px;
     padding: 0 ;
 }
@@ -2003,10 +2006,10 @@ width: 50%;
 /* Box6*/
 
 .Box6 {
+    margin-left: 35px;
     padding: 23px;
-    justify-content: center;
+    width: auto;
 }
-
 
 .Box6Condiv3 {
     width: 250px;
@@ -2020,44 +2023,44 @@ width: 50%;
 }
 
 .Box6Condiv1 {
-    width: 170px;
-    height: 150px;
+    width: 100px;
+    height: 192px;
+    top: 106px;
+    right: 10px;
     margin:0;
-    right: 42px;
-    bottom: 10px;
 }
 
 .Box6Condiv2 {
-    width: 100px;
-    height: 100px;
-    bottom: 0;
-    margin:0 ;
+    width: 130px;
+    height: 70px;
+    left: 70px;
+    bottom: -5px;
+    margin:0;
 }
 
 .Box6Condiv4 {
     width: 50px;
     height: 50px;
-    left: 30px;
-    top: 100px;
-    margin: 0px;
+    margin: 50px 0px 0 -24px;
 }
 
 .Box6Condiv4 img {
-    width: 50%;
-    height: 50%;
+width: 50%;
 }
 
-.Box6Condiv5 {
-    width: 80px;
-    height: 90px;
-    right: 20px;
+.Box6Condiv5  {
+    width: 90px;
+    height: 100px;
     top: 100px;
-    margin: 0px;
+    right: -20px;
+    margin: 0;
 }
 
-.Box6Condiv5 img {
-    width: 60%;
+.Box6Condiv5  img {
+    width:60%;
+    object-fit: contain;
 }
+
 /* Box6*/
 
 /* Section 8 */
@@ -2080,6 +2083,7 @@ width: 50%;
 
 .VideBoxDiv {
     margin: -70px 0 0 0;
+    width: auto;
 }
 
 .Box8 {
@@ -2092,7 +2096,9 @@ width: 50%;
 
 /* SEction 10 */
 .Section10 {
+    margin-top: 100px;
     flex-direction: column;
+    align-items: center;
 }
 
 
@@ -2132,6 +2138,7 @@ width: 50%;
     padding: 100px 23px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 100px;
 }
 

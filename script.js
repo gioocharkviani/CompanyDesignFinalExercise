@@ -12,7 +12,8 @@ let swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
       slidesPerGroup: 3,
     },
-    360: {
+    
+    600: {
       slidesPerView: 1,
       spaceBetween: 0,
     }
